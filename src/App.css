@@ -1,38 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  place-content: center;
+  width: 100%;
+}
 .App {
-  text-align: center;
+  padding: 25px;
+  height: 100vh;
+  background-image: url("https://tecnoeducacion.cl/wp-content/uploads/2021/04/Coding-Dojo-678x381.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form {
+  width: 400px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  backdrop-filter: blur(4px) saturate(200%);
+  -webkit-backdrop-filter: blur(4px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.21);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  padding: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+  width: 100%;
+  margin: 10px auto;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border: 1px solid white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+label {
+  margin: auto;
+  font-size: 17px;
+  font-weight: 500;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.input-data {
+  border: none;
+  border-radius: 3px;
+  height: 23px;
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  width: 80%;
+  margin: 10px 0 0 35px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(47, 51, 255);
+  color: white;
+}
+p {
+  color: white;
+  font-size: 80%;
+  margin-top: 5px;
+  font-weight: 400;
 }
